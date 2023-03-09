@@ -23,10 +23,6 @@
 			<input type="text" name="" placeholder="Nom">
 		</div>
 		<div class="form-child">
-			<label>Prénom</label>
-			<input type="text" name="" placeholder="Prénom">
-		</div>
-		<div class="form-child">
 			<label>E-mail</label>
 			<input type="mail" name="" placeholder="Nom">
 		</div>
