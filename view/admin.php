@@ -18,15 +18,15 @@
 <div class="form">
 	<h2>Login</h2>
 	<div class="form-content">
-		<div class="form-box">
+		<div class="form-child">
 			<label>Username</label>
 			<input type="text" name="" placeholder="xX-User-Xx">
 		</div>
-		<div class="form-box">
+		<div class="form-child">
 			<label>Password</label>
 			<input type="password" name="" placeholder="••••••••">
 		</div>
-		<div class="form-box">
+		<div class="form-child">
 			<input type="submit" name="submit" value="Sign In">
 		</div>
 	</div>

@@ -17,7 +17,7 @@
 
   <div class="grid-liens">
     <div class="grid-child-lien">
-        <a href="https://developer.mozilla.org/fr/docs/orphaned/Web" target="_blank"><img id="img1" src="medias/MDN_Web_Docs-Logo.wine.png" alt=""></a></div>
+        <a href="https://developer.mozilla.org/fr/" target="_blank"><img id="img1" src="medias/MDN_Web_Docs-Logo.wine.png" alt=""></a></div>
     <div class="grid-child-lien">
       <a href=""></a></div>
     <div class="grid-child-lien">
