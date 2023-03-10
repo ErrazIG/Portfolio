@@ -527,6 +527,9 @@ input[type='range']::-webkit-slider-thumb {
   }
 
   .container-tuto{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     display: grid;
     grid-template-columns: repeat(1, 300px);
     grid-template-rows: repeat(8, .25fr);
