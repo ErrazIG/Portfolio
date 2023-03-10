@@ -22,14 +22,13 @@
 body {
 	background: var(--color-bg);
 }
-
 #pistol {
   overflow: hidden;
 }
 
 .context {
 	position: fixed;
-	top: 20px;
+	bottom: 20px;
 	left: 20px;
   z-index: 1000;
 }
@@ -67,17 +66,16 @@ body {
 	transform: translate(calc(70px - 45px), -5px);
 }
 
-
 nav{
   position: fixed;
+  right: 20px;
   top: 2%;
-  right: 0%;
+  word-spacing: 8px;
   z-index: 1000;
 }
 
 nav a{
   font-size: 23px;
-  margin-right: 20px;
   font-family: 'Ruda', sans-serif;
   text-decoration: none;
 	color: var(--color-text);
@@ -91,9 +89,9 @@ nav a:hover{
   text-decoration-color: #FF7F11;
 }
 
-
 .container {
   position: relative;
+  text-align: center;
   font-size: 120px;
   min-height: 100vh;
   filter: contrast(25) blur(1px);
@@ -101,8 +99,7 @@ nav a:hover{
 }
 
 
-.word {/*
-  font-family: 'DM Serif Display', serif;*/
+.word {
   font-family: 'Asul', sans-serif;
 	color: var(--color-text);
   position: absolute;
@@ -173,18 +170,18 @@ h1{
 
 .grid-work {
   position: absolute;
-  top: 50%;
+  top: 55%;
   left: 50%;
   transform: translate(-50%, -50%);
-  width: 60%;
-  height: 70%;
+  width: 70%;
+  height: 80%;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, 1fr);
   grid-column-gap: 20px;
   grid-row-gap: 20px;
   padding: 30px;
-  }
+}
 
 .grid-child-work{
   border: 2px solid rgb(34, 34, 34);
@@ -283,7 +280,7 @@ h1{
 
 
 .grid-liens {
-  position: absolute;
+  position: fixed;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -455,4 +452,116 @@ input[type='range']::-webkit-slider-thumb {
 
 .form-forget a{
 	color: #EF1A6B;
+}
+
+
+/* Media query tablettes */
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  
+  nav {
+  position: absolute;
+  left: 0px;
+  width: 100%;
+  word-spacing: 3px;
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+  .grid-work {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 200px);
+  }
+
+  .container-tuto{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(8, 350px);
+    justify-content: center;
+    row-gap: 200px;
+  }
+
+  .container-tuto .div h1{
+    left: 50%;
+    transform: translate(-50%);
+  }
+  
+}
+
+/* Media query mobiles */
+@media only screen and (max-width: 767px) {
+
+  nav {
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    word-spacing: 3px;
+    display: flex;
+    justify-content: space-evenly;
+
+  }
+  
+  nav a {
+    font-size: 16px;
+  }
+
+  .container {
+    scale: 0.6;
+    position: absolute;
+    width: auto;
+    height: auto;
+    left: 50%;
+    top: 30%;
+    transform: translate(-50%, -50%);
+  }
+
+  .grid-work {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(1, 250px);
+    grid-template-rows: repeat(9, 150px);
+    justify-content: center;
+    gap: 100px;
+  }
+
+  .container-tuto{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    display: grid;
+    grid-template-columns: repeat(1, 300px);
+    grid-template-rows: repeat(8, .25fr);
+    justify-content: center;
+  }
+  
+  .container-tuto .div h1{
+    left: 50%;
+    transform: translate(-50%);
+  }
+
+  .grid-liens {
+    
+  width: calc(665px /1.6);
+  height: calc(665px /1.6);
+  }
+
+  .form{
+    border-radius: 10px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.2), 5px 5px 15px rgba(0, 0, 0, 0.4);
+    padding: 40px 40px 60px;
+    position: absolute;
+    text-align: center;
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Ruda', sans-serif;
+  }
+
 }
