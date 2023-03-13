@@ -17,13 +17,13 @@
 
   <div class="grid-liens">
     <div class="grid-child-lien">
-        <a href="https://developer.mozilla.org/fr/" target="_blank"><img id="img1" src="medias/MDN_Web_Docs-Logo.wine.png" alt=""></a></div>
+      <a href="https://developer.mozilla.org" target="_blank"><img id="img1" src="medias/MDN_Web_Docs-Logo.wine.png" alt="logo mdn"></a></div>
     <div class="grid-child-lien">
-      <a href=""></a></div>
+      <a href="https://www.awwwards.com/" target="_blank"><img id="img2" src="medias/awwwards.png" alt="logo awwwards"></a></div>
     <div class="grid-child-lien">
-      <a href=""></a></div>
+      <a href="https://github.com/" target="_blank"> <img id="img3" src="medias/github.png" alt=""></a></div>
     <div class="grid-child-lien">
-      <a href=""></a></div>
+      <a href="https://css-tricks.com/" target="_blank"> <img id="img4" src="medias/csstricks.png" alt=""></a></div>
   </div>
   <input type="range" id="myRange" min="0" max="360" value="0" />
 </body>

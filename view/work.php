@@ -15,15 +15,17 @@
   <?php include_once '../include/menu.php' ?>
   <h1>MES TRAVAUX</h1>
   <div class="grid-work">
+
     <div class="grid-child-work"></div>
     <div class="grid-child-work"></div>
+    <div class="grid-child-work"></div>
     <div class="grid-child-work"><p>COMING SOON</p></div>
     <div class="grid-child-work"><p>COMING SOON</p></div>
     <div class="grid-child-work"><p>COMING SOON</p></div>
     <div class="grid-child-work"><p>COMING SOON</p></div>
     <div class="grid-child-work"><p>COMING SOON</p></div>
     <div class="grid-child-work"><p>COMING SOON</p></div>
-    <div class="grid-child-work"><p>COMING SOON</p></div>
+    
   </div>
 
 </body>

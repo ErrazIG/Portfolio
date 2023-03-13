@@ -24,11 +24,11 @@
 		</div>
 		<div class="form-child">
 			<label>E-mail</label>
-			<input type="mail" name="" placeholder="Nom">
+			<input type="mail" name="" placeholder="name@example.com">
 		</div>
 		<div class="form-child">
 			<label>Message</label>
-			<textarea name="" class="txtarea"></textarea>
+			<textarea name="" class="txtarea" placeholder="Message"></textarea>
 		</div>
 		<div class="form-child">
 			<input type="submit" name="submit" value="Envoyer">
