@@ -1,0 +1,69 @@
+header {
+  position: sticky;
+  top: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: Consolas;
+  background-color: #212121;
+  padding: 1rem;
+  z-index: 1;
+}
+
+.bitmoji {
+  width: 3.7rem;
+  margin-bottom: 3rem;
+}
+
+.menu {
+  position: relative;
+}
+
+.menuLinks {
+  display: flex;
+}
+
+.menuList {
+  display: flex;
+  align-items: center;
+  margin: 1ch;
+  padding: 0;
+  list-style: none;
+}
+
+.menuItem {
+  padding: 0ch 1ch;
+}
+
+.menuLink {
+  display: block;
+  /* font-size: 2.8vw; */
+  font-size: 0.7rem;
+  color: #fff;
+  text-decoration: none;
+  user-select: none;
+}
+
+@media screen and (min-width: 1024px) {
+  header {
+    width: 77vw;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin-top: 8rem;
+  }
+
+  .bitmoji {
+    display: flex;
+    margin-bottom: 0rem;
+  }
+
+  .menuItem {
+    padding: 0ch 1.5ch;
+  }
+
+  .menuLink {
+    font-size: 1.2rem;
+  }
+}
