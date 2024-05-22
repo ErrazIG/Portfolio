@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "A personal portfolio project built with React and Vite.",
+  "description": "My personal portfolio project built with React and Vite.",
   "author": "FRD VML",
   "scripts": {
     "dev": "vite",
