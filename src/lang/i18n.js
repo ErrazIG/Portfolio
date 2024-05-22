@@ -12,7 +12,7 @@ i18next
       escapeValue: false,
     },
     backend: {
-      loadPath: `http://localhost:5173/lang/{{lng}}.json`,
+      loadPath: `https://frd-vml-portfolio.vercel.app/lang/{{lng}}.json`,
     },
   });
 
