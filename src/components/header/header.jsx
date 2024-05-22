@@ -1,4 +1,5 @@
 import logo from "../../assets/bitmoji.png";
+import LangSelector from "../lang-selector/lang-selector.jsx";
 import style from "./header.module.css";
 
 const Header = () => (
@@ -29,6 +30,7 @@ const Header = () => (
           </a>
         </li>
       </ul>
+      <LangSelector />
     </nav>
   </header>
 );
